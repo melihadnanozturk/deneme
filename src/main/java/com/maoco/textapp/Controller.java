@@ -8,6 +8,6 @@ public class Controller {
 
     @GetMapping
     public String getMessage(){
-        return "Welcome maoco :)";
+        return "Welcome maoco :),  I am Melih Adnan, mao.co's ceo";
     }
 }
