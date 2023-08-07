@@ -7,7 +7,7 @@ public class Controller {
 
     @GetMapping
     public String getMessage(){
-        return "Beyler, tırnağım bana küsmüş. Ben düzgün oynayamayacağım sahada kusura bakmayın";
+        return "Welcome my world, this is a heroku trying";
     }
 
     @PostMapping("/{message}")
