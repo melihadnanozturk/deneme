@@ -15,7 +15,7 @@ public class Controller {
         return "Dediğin mesaj : "+message;
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{message}")
     public String deleteMessage(@PathVariable String message){
         return "Sildiğin mesaj : "+message;
     }
